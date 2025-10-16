@@ -920,7 +920,7 @@
         <!-- Login Page -->
         <div id="loginPage" class="auth-container">
             <div class="auth-header">
-                <h2>Welcome Back</h2>
+                <h2>Welcome</h2>
                 <p>Sign in to your TextMoji account</p>
             </div>
             
@@ -1092,10 +1092,8 @@
                 <div class="sidebar-logo">
                     <i class="fas fa-lock"></i>
                     <h2>TextMoji</h2>
-                    <p class="tagline">Transform your text into secure emoji messages with military-grade AES encryption</p>
                 </div>
             </div>
-            
             <div class="user-info">
                 <div class="user-greeting" id="userGreeting">Welcome, User!</div>
                 <div class="user-email" id="userEmail">user@example.com</div>
@@ -1142,6 +1140,7 @@
                 <div class="logo">
                     <i class="fas fa-lock"></i>
                     <h1>TextMoji</h1>
+                    <p class="tagline">Transform your text into secure emoji messages with military-grade AES encryption</p>
                 </div>
                 <div></div> <!-- Empty div for flex alignment -->
             </div>
