@@ -438,12 +438,16 @@
             -webkit-text-fill-color: transparent;
         }
 
-        .tagline {
+        .tagline {  
             font-size: 1.1rem;
             color: rgba(255, 255, 255, 0.8);
             max-width: 600px;
             margin: 0 auto;
             text-align: center;
+            line-height: 1.5;
+            padding: 0 20px;
+            word-wrap: normal;
+            white-space: normal;
         }
 
         .content {
@@ -1140,10 +1144,10 @@
                 <div class="logo">
                     <i class="fas fa-lock"></i>
                     <h1>TextMoji</h1>
-                    <p class="tagline">Transform your text into secure emoji messages with military-grade AES encryption</p>
                 </div>
                 <div></div> <!-- Empty div for flex alignment -->
             </div>
+            <p class="tagline">Transform your text into secure emoji messages with military-grade AES encryption</p>
 
             <div class="content">
                 <!-- Encrypt Panel -->
