@@ -1321,7 +1321,7 @@
             </div>
 
             <footer>
-                <p>TextMoji &copy; 2023 | Secure Emoji Encryption System</p>
+                <p>TextMoji &copy; 2025 | Secure Emoji Encryption System</p>
             </footer>
         </div>
     </div>
