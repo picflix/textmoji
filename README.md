@@ -1144,10 +1144,11 @@
                 <div class="logo">
                     <i class="fas fa-lock"></i>
                     <h1>TextMoji</h1>
+                    </div>
+                    <p class="tagline">Transform your text into secure emoji messages with military-grade AES encryption</p>
                 </div>
                 <div></div> <!-- Empty div for flex alignment -->
             </div>
-            <p class="tagline">Transform your text into secure emoji messages with military-grade AES encryption</p>
 
             <div class="content">
                 <!-- Encrypt Panel -->
