@@ -391,84 +391,75 @@
 
         /* Main Content Area */
         .main-content {
-             flex: 1;
-             display: flex;
-             flex-direction: column;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
         }
 
-.app-header {
-    padding: 30px 30px 20px 30px;
-    background: linear-gradient(90deg, var(--primary), var(--secondary));
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 200px; 
-}
+        .app-header {
+            padding: 20px 30px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-.mobile-menu-btn {
-    display: none;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-    position: absolute;
-    left: 20px;
-    top: 20px;
-}
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
 
-.app-header .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 10px; /* Added space between logo and tagline */
-}
+        .app-header .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
 
-.app-header .logo i {
-    font-size: 2.5rem;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 15px;
-    border-radius: 50%;
-}
+        .app-header .logo i {
+            font-size: 2.5rem;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 50%;
+        }
 
-.app-header h1 {
-    font-size: 2.8rem;
-    font-weight: 800;
-    margin-bottom: 0; /* Removed bottom margin since we have gap now */
-    background: linear-gradient(to right, #fff, #e0e7ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+        .app-header h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #fff, #e0e7ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
 
-.tagline {
-    font-size: 1.1rem;
-    color: rgba(255, 255, 255, 0.9); /* Slightly brighter for better visibility */
-    max-width: 600px;
-    margin: 0;
-    text-align: center;
-    line-height: 1.4;
-    padding: 0 20px;
-}
+        .tagline {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
 
-.content {
-    padding: 30px;
-    flex: 1;
-    overflow-y: auto;
-}
+        .content {
+            padding: 30px;
+            flex: 1;
+            overflow-y: auto;
+        }
 
-.panel {
-    display: none;
-}
+        .panel {
+            display: none;
+        }
 
-.panel.active {
-    display: block;
-    animation: fadeIn 0.5s ease;
-}
+        .panel.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
 
         /* Profile Panel Styles */
         .profile-container {
@@ -1103,6 +1094,7 @@
                     <h2>TextMoji</h2>
                 </div>
             </div>
+            
             <div class="user-info">
                 <div class="user-greeting" id="userGreeting">Welcome, User!</div>
                 <div class="user-email" id="userEmail">user@example.com</div>
@@ -1146,12 +1138,9 @@
                 <button class="mobile-menu-btn" id="mobileMenuBtn">
                     <i class="fas fa-bars"></i>
                 </button>
-                <div class="header-content">
                 <div class="logo">
                     <i class="fas fa-lock"></i>
                     <h1>TextMoji</h1>
-                    </div>
-                    <p class="tagline">Transform your text into secure emoji messages with military-grade AES encryption</p>
                 </div>
                 <div></div> <!-- Empty div for flex alignment -->
             </div>
