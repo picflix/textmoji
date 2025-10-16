@@ -1092,6 +1092,7 @@
                 <div class="sidebar-logo">
                     <i class="fas fa-lock"></i>
                     <h2>TextMoji</h2>
+                    <p class="tagline">Transform your text into secure emoji messages with military-grade AES encryption</p>
                 </div>
             </div>
             
